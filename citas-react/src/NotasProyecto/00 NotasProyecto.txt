@@ -1,0 +1,24 @@
+Comandos snippers, para acelerar React
+- RAFCE : Crea un componente de react, con todas sus propiedades
+- RCC : Crea una clase de React
+- IMP : Linea para importar clase
+- REN : Render return
+
+Instalar dependencias
+- npm i -D
+
+Tailwind
+- npm i -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+
+Fragments
+- Se abren y cierran asi <> </>
+- Los Fragments ayudan a a contener un elemento, por si no se desea un div
+
+Funciones de JSX
+- Antes del return puedes crear function-expretion y variables
+
+Variables dentro del JSX return
+- Puedes usar propiedades y validador ternario siempre y cuando lo uses dentro de {} llaves
+- incluso cambiar textos { "Hola mundo".toLowerCase()}
+

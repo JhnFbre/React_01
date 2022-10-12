@@ -1,0 +1,10 @@
+TailwindCss
+
+Al cargar tailwindcss, se escribir lo siguiente en el css principal
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Clases 
+- md:w-2/3 Activa los media queries medium y le ubica esa division al contenedor

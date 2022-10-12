@@ -1,0 +1,42 @@
+Hooks
+-Existen desde la clase 16.8
+-Se dividesn en: Básicos y adicionales
+
+Básicos
+- useState
+- useEffect
+- useContext
+
+Adicionales
+- useReducer
+- useCallback
+- useMemo
+- useRef
+- useImperativeHanlde
+- useLayoutEffect
+- useDebugValue
+
+useState
+- Indica cual es el estado de tu aplicación
+- Es una variable con información relevante para nuestra aplicación
+- Algunas vez pertenece a un componente, pero puede ser heredado para otro elemento
+- Una variable esta conformada por dos partes: 
+    La variable y el editor de la variable (cliente, setCliente)
+- Al crear una variable se hace de la siguiente manera, y se mando un valor: 
+    const [total, setTotal] = useState(0)       -->Integer valor default para total
+    const [cliente, setCliente] = useState({})  -->Objeto
+    const [clientes, setClientes] = useState(0) -->Arreglo
+    const [modal, setModal] = useState(false)   -->Boolean
+- Cada vez que el useState cambiar, la página renderiza nuevamente el contenido, sin necesidad de sobrecargar la página
+
+useEffect
+- Siempre es un callback, que se ejecuta cuando un state cambia o cuando el componente esta listo
+- Es el sustituto de componentDidMount y componentDidUpdate
+- Se ejecuta cuando un elemento esta listo, perfecto para apis o localstorage
+- Se le puede pasar una dependencia, y useEffect estara pendiente de re-render cuando el cambio suceda
+- sintax:
+    import  {useEffect} from 'react'
+    
+    useEffect( () => {
+        console.log('El componente está listo')
+    },[])

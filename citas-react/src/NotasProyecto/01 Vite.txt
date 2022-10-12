@@ -1,0 +1,18 @@
+Vite
+npm init vite@latest
+Abre un selector de proyectos en donde se escoge el nombre, el tipo de proyecto y que subtipo de proyecto será.
+React -> React con JSX 
+React -> React con Typescript
+
+Que es Vite
+Vite es una herramienta de Front-end, que permite crear proyectos de manera agonística, trata de crear proyectos de la manera más sencilla posible.
+
+Como se organiza un proyecto con Vite
+Vite al igual que otros organizadores de proyectos, tiene un orden único, al igual que Gatsby tiene una carpeta SRC que en sí es la carpeta más importada de los proyectos, ahí van los componentes de React y los modulos de CSS, funciones Helper, etc.
+-	En Vite los proyectos deben estar terminados en .JSX.
+
+Que es JSX
+JSX o Javascript Synthax Extension, es una extensión del lenguaje para React. Es un lenguaje de template que muestra el HTML, pero que tiene todas las funciones de Javascript. Una vez creado el Bond(resultado del proyecto de React) todo se transforma en HTML y JS normal.
+
+Reglas en JSX
+-	Todas las etiquetas deben tener cierre, incluso si estás no se cierran p.ej (img). Se pueden cerrar en una sóla línea pero dejando el “/>” al final.

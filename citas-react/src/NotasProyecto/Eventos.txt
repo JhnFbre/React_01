@@ -1,0 +1,30 @@
+Eventos
+- Maneja eventos de una manera muy similar a js
+- Tiene que estar en formato camelCase
+-  pacientes.map(
+          () => (<h2>Hola</h2>)
+        )
+Props
+- Variables o funciones de otros componentes
+- Los state o funciones sólo pueden ser utilizadas en la funcion en la que fueron creadas
+- Es una forma de evitar código repetido
+- Pasan de un padre a hijo, y nunca viceversa
+- Se puede pasar todo tipo de variables, e incluso funciones
+- Se debe cargar el useState de react primero
+- Para pasar grandes partes de código:
+    <Error> 
+        <p>
+            Hola Lorem 
+        </p>
+        <h6>As</h6>
+    </Error>
+    ({children})
+    {children}
+
+
+- Si se ejecuta dos veces, quita el :
+    <React.StrictMode>
+    <App />
+  </React.StrictMode>
+Deja solo : 
+    <App />
